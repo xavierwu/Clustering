@@ -10,6 +10,47 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataPreprocessing\DataPreprocessing.cpp" />
+    <ClCompile Include="Evaluation\Evaluation.cpp" />
+    <ClCompile Include="Instance\Instance.cpp" />
+    <ClCompile Include="KMeans\KMeans.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Utilities\Utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataPreprocessing\DataPreprocessing.h" />
+    <ClInclude Include="Evaluation\Evaluation.h" />
+    <ClInclude Include="Instance\Instance.h" />
+    <ClInclude Include="KMeans\KMeans.h" />
+    <ClInclude Include="Utilities\Utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Dataset\a1.txt" />
+    <Text Include="Dataset\a2.txt" />
+    <Text Include="Dataset\a3.txt" />
+    <Text Include="Dataset\Aggregation.txt" />
+    <Text Include="Dataset\birch1.txt" />
+    <Text Include="Dataset\birch2.txt" />
+    <Text Include="Dataset\birch3.txt" />
+    <Text Include="Dataset\Compound.txt" />
+    <Text Include="Dataset\D31.txt" />
+    <Text Include="Dataset\europediff.txt" />
+    <Text Include="Dataset\flame.txt" />
+    <Text Include="Dataset\jain.txt" />
+    <Text Include="Dataset\pathbased.txt" />
+    <Text Include="Dataset\R15.txt" />
+    <Text Include="Dataset\s1.txt" />
+    <Text Include="Dataset\s2.txt" />
+    <Text Include="Dataset\s3.txt" />
+    <Text Include="Dataset\s4.txt" />
+    <Text Include="Dataset\smileface.txt" />
+    <Text Include="Dataset\spiral.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dataset\MNIST_classid.csv" />
+    <None Include="Dataset\MNIST_data.csv" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5677B029-68DB-4B7C-89BB-1B66C0DA61AC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,9 +118,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

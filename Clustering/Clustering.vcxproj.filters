@@ -1,22 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Dataset">
+      <UniqueIdentifier>{2b10aa74-4014-4e67-9ac7-719f62b27eaa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="DataPreprocessing">
+      <UniqueIdentifier>{60e7d07d-1ed7-4463-8174-f25db0fee847}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{b47cd9c2-16db-420f-bb0a-ce11ecd329b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Evaluation">
+      <UniqueIdentifier>{4714ea30-d9e4-4255-8fc8-dc89cc43cf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{2c18e187-059e-4c62-9f0b-ff775625974c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KMeans">
+      <UniqueIdentifier>{c532fa70-5f1f-471f-a637-6a5bfb501258}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DataPreprocessing\DataPreprocessing.cpp">
+      <Filter>DataPreprocessing</Filter>
     </ClCompile>
+    <ClCompile Include="Utilities\Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluation\Evaluation.cpp">
+      <Filter>Evaluation</Filter>
+    </ClCompile>
+    <ClCompile Include="Instance\Instance.cpp">
+      <Filter>Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="KMeans\KMeans.cpp">
+      <Filter>KMeans</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataPreprocessing\DataPreprocessing.h">
+      <Filter>DataPreprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluation\Evaluation.h">
+      <Filter>Evaluation</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance\Instance.h">
+      <Filter>Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="KMeans\KMeans.h">
+      <Filter>KMeans</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Dataset\a1.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\a2.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\a3.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\Aggregation.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\birch1.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\birch2.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\birch3.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\Compound.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\D31.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\europediff.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\flame.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\jain.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\pathbased.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\R15.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\s1.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\s2.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\s3.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\s4.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\smileface.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+    <Text Include="Dataset\spiral.txt">
+      <Filter>Dataset</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dataset\MNIST_classid.csv">
+      <Filter>Dataset</Filter>
+    </None>
+    <None Include="Dataset\MNIST_data.csv">
+      <Filter>Dataset</Filter>
+    </None>
   </ItemGroup>
 </Project>
