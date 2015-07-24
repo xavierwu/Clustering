@@ -1,7 +1,7 @@
 #ifndef INSTANCE_H
 #define INSTANCE_H
 
-#include "../Utilities/Utilities.h"
+#include "Utilities.h"
 
 const int DEFAULT_CATEGORY = -1;
 

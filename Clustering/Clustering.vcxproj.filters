@@ -13,11 +13,11 @@
     <Filter Include="Evaluation">
       <UniqueIdentifier>{4714ea30-d9e4-4255-8fc8-dc89cc43cf77}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Instance">
-      <UniqueIdentifier>{2c18e187-059e-4c62-9f0b-ff775625974c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="KMeans">
       <UniqueIdentifier>{c532fa70-5f1f-471f-a637-6a5bfb501258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance">
+      <UniqueIdentifier>{ddc0dc4b-0e70-47ce-ae11-e8ec34d32fec}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -31,11 +31,14 @@
     <ClCompile Include="Evaluation\Evaluation.cpp">
       <Filter>Evaluation</Filter>
     </ClCompile>
-    <ClCompile Include="Instance\Instance.cpp">
-      <Filter>Instance</Filter>
-    </ClCompile>
     <ClCompile Include="KMeans\KMeans.cpp">
       <Filter>KMeans</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Instance.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance\Distance.cpp">
+      <Filter>Distance</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,11 +51,14 @@
     <ClInclude Include="Evaluation\Evaluation.h">
       <Filter>Evaluation</Filter>
     </ClInclude>
-    <ClInclude Include="Instance\Instance.h">
-      <Filter>Instance</Filter>
-    </ClInclude>
     <ClInclude Include="KMeans\KMeans.h">
       <Filter>KMeans</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Instance.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance\Distance.h">
+      <Filter>Distance</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
